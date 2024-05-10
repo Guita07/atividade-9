@@ -2,4 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: monospace;
+} 
+
+:root {
+    --main-background:#7e22ce;
+    --text-color:#e0e7ff;
+    --nav-background:#a5f3fc;
+}
+
+body {
+    background: var(--main-background);
+    color: var(--text-color);
+
+    display: flex;
+    flex-direction: column;
+    height: 100svh;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background: var(--nav-background);
 }
